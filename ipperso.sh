@@ -1,6 +1,6 @@
 # C'est la première ligne de mon code
 # il indique quel shell j'utilise
-#!/bon/bash
+#!/bin/bash
 #
 # script conenant un menu qui vas permettre les actions suivantes
 # 
