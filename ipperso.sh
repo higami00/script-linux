@@ -191,6 +191,10 @@ read choix
 		echo "=======================================" >> scriptlog.txt
 		echo "============ End of action ============" >> scriptlog.txt
 		echo "=======================================" >> scriptlog.txt
+
+		echo "$interfacename est maintenant activé"
+		read pop
+		./ipperso.sh
 	else
 # ============desactivation de la carte réseau=======
 #
@@ -207,6 +211,9 @@ read choix
 		echo "=======================================" >> scriptlog.txt
 		echo "============ End of action ============" >> scriptlog.txt
 		echo "=======================================" >> scriptlog.txt
+
+		echo "$interfacename est maintenant desactivé"
+		read pop
 		./ipperso.sh
 	else
 #
